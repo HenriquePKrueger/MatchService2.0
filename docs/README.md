@@ -2,7 +2,7 @@
 
 Basic project information.
 
-* **Project:** SERVICE PROVIDERS
+* **Project:** MatchService2.0
 * **GitHub Repository:** [LINK](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti1-g-prestadores-de-servico)
 * **Team Members:**
 
