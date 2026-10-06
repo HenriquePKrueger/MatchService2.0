@@ -8,7 +8,6 @@ Basic project information.
 
   * [Henrique Pimenta Krueger](https://github.com/HenriquePkrueger)
   * [Rhayner Moura Martins da Silva Araújo](https://github.com/rhaynermartins)
-  * [Samuel Vitor Vieira](https://github.com/svsamuel1912)
   * [Samuel Elias Santos Oliveira](https://github.com/SamuelMonstewe)
   * [Gabriel Ulhoa Thebaldi](https://github.com/gauthzera)
 
@@ -43,7 +42,7 @@ Therefore, it is natural to turn to information-age tools to address this proble
 
 The purpose of this application is to address the problem of managing home repairs by connecting consumer demand for services with income opportunities for service providers. All of this while providing convenience and security for both parties.
 
-The solution takes the form of an application that operates on two main fronts: time and expertise.
+The solution takes the form of an application t[Samuel Vitor Vieira](https://github.com/svsamuel1912)hat operates on two main fronts: time and expertise.
     • Time: the app allows consumers to schedule services outside regular business hours, fitting them better into their routines, while also giving service providers the opportunity to increase their income.
     • Expertise: in addition to connecting consumers and service providers, the application provides relevant information for more informed decisions, such as reviews, portfolios, and quotes.
 
