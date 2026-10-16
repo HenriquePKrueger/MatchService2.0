@@ -1,7 +1,8 @@
-# Introduction
+# Introdução
 
-Basic project information.
+Informações básicas do projeto.
 
+<<<<<<< HEAD
 * **Project:** MatchService2.0
 * **GitHub Repository:** [LINK](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti1-g-prestadores-de-servico)
 * **Team Members:**
@@ -10,199 +11,226 @@ Basic project information.
   * [Rhayner Moura Martins da Silva Araújo](https://github.com/rhaynermartins)
   * [Samuel Elias Santos Oliveira](https://github.com/SamuelMonstewe)
   * [Gabriel Ulhoa Thebaldi](https://github.com/gauthzera)
+=======
+- **Projeto:** PRESTADORES DE SERVIÇO
+- **Membros da equipe:**
+  - [Rhayner Moura Martins da Silva Araújo](https://github.com/rhaynermartins)
+  - [Henrique Pimenta Krueger](https://github.com/HenriquePkrueger)
+  - [Samuel Elias Santos Oliveira](https://github.com/SamuelMonstewe)
+  - [Gabriel Ulhoa Thebaldi](https://github.com/gauthzera)
 
-The project documentation is structured as follows:
+A documentação do projeto está estruturada da seguinte forma:
+>>>>>>> 1f8d56a (docs: update README)
 
-1. Introduction
-2. Context
+1. Introdução
+2. Contexto
 3. Product Discovery
 4. Product Design
-5. Methodology
-6. Solution
-7. Bibliographic References
+5. Metodologia
+6. Solução
+7. Referências Bibliográficas
 
-✅ [Design Thinking Documentation (MIRO)](files/processo-dt.pdf)
+✅ [Documentação de Design Thinking (Miro)](files/processo-dt.pdf)
 
-# Context
+# Contexto
 
-Details about the problem space, project objectives, justification, and target audience.
+Detalhes sobre o problema, os objetivos do projeto, sua justificativa e seu público-alvo.
 
-## Problem
+## Problema
 
-In the information age society, where professionals are becoming increasingly specialized in specific areas of knowledge and time has become an extremely valuable commodity, some everyday tasks that were once considered trivial are becoming challenging.
+Na sociedade da era da informação, em que os profissionais se especializam cada vez mais em áreas específicas do conhecimento e o tempo se tornou um recurso extremamente valioso, algumas tarefas cotidianas que antes eram consideradas simples acabam se tornando desafiadoras.
 
-A clear example of this scenario is the management of home repairs. It is not uncommon to hear reports of people who are unable to schedule, for example, plumbing or electrical repairs around a full-time work schedule.
+Um exemplo claro desse cenário é o gerenciamento de reparos domésticos. Não é raro ouvir relatos de pessoas que não conseguem conciliar, por exemplo, um reparo hidráulico ou elétrico com uma jornada de trabalho integral.
 
-These issues are not limited to scheduling difficulties, but also include the challenge of finding a suitable professional, checking whether they have good references, or even determining what would be a fair price for each service.
+Essas dificuldades não se limitam à questão dos horários, mas também envolvem a dificuldade de encontrar um profissional adequado, verificar se ele possui boas referências e até mesmo determinar qual seria um preço justo para cada serviço.
 
-Therefore, it is natural to turn to information-age tools to address this problem.
+Dessa forma, é natural recorrer às ferramentas da era da informação para enfrentar esse problema.
 
+## Objetivos
 
-## Objectives
+A finalidade desta aplicação é lidar com o problema descrito anteriormente, conectando a demanda dos consumidores por serviços às oportunidades de renda extra para os prestadores. Tudo isso com o objetivo de oferecer praticidade e segurança para ambas as partes.
 
-The purpose of this application is to address the problem of managing home repairs by connecting consumer demand for services with income opportunities for service providers. All of this while providing convenience and security for both parties.
+A solução consiste em um aplicativo que atua em duas frentes principais: tempo e expertise.
 
+<<<<<<< HEAD
 The solution takes the form of an application t[Samuel Vitor Vieira](https://github.com/svsamuel1912)hat operates on two main fronts: time and expertise.
     • Time: the app allows consumers to schedule services outside regular business hours, fitting them better into their routines, while also giving service providers the opportunity to increase their income.
     • Expertise: in addition to connecting consumers and service providers, the application provides relevant information for more informed decisions, such as reviews, portfolios, and quotes.
+=======
+- **Tempo:** o aplicativo oferece ao consumidor a possibilidade de agendar serviços fora do horário comercial, adaptando-os melhor à sua rotina. Ao mesmo tempo, proporciona ao prestador a oportunidade de ampliar sua renda.
+- **Expertise:** além de aproximar consumidores e prestadores, a aplicação disponibiliza informações relevantes para uma tomada de decisão mais consciente, como avaliações, portfólios e orçamentos.
+>>>>>>> 1f8d56a (docs: update README)
 
-## Justification
+## Justificativa
 
-Almost everyone has experienced, or knows someone who has experienced, situations involving home repairs. To better understand the problem, the main demands, pain points, and desired solutions were organized and analyzed.
+Quase todo mundo já enfrentou, ou conhece alguém que enfrentou, situações relacionadas a reparos domésticos. Para compreender melhor o problema, buscou-se organizar e analisar as principais demandas, dificuldades e soluções desejadas.
 
-Based on research with consumers and service providers, a significant demand for repairs outside regular business hours was confirmed, as well as the availability of professionals interested in meeting this demand.
+A partir de pesquisas com consumidores e prestadores de serviços, identificou-se uma demanda significativa por reparos realizados fora do horário comercial, assim como a disponibilidade de profissionais interessados em atender a essa necessidade.
 
-Three points proved to be central:
-    1. Difficulty finding qualified service providers → the first major aspect to be addressed, by connecting the parties and providing useful information such as reviews, portfolios, and quotes.
-    2. Speed and proximity → a priority for users, who seek agility in service delivery. In this sense, intelligent filters allow them to choose according to their needs and location.
-    3. Other recurring pain points → upfront quotes to ensure fair pricing, a reputation system to strengthen user trust, and even additional filters, such as gender, to provide greater security for consumers and service providers.
+Três pontos se mostraram centrais:
 
-## Target Audience
+1. **Dificuldade de encontrar prestadores qualificados:** esse é um dos principais aspectos a serem trabalhados, por meio da conexão entre as partes e da disponibilização de informações úteis, como avaliações, portfólios e orçamentos.
+2. **Velocidade e proximidade:** são prioridades para os usuários, que buscam agilidade na prestação dos serviços. Nesse sentido, filtros inteligentes permitem que encontrem profissionais de acordo com suas necessidades e localização.
+3. **Outras dificuldades recorrentes:** incluem a necessidade de orçamentos prévios para ajudar a avaliar a justiça dos preços, um sistema de reputação para fortalecer a confiança entre os usuários e filtros adicionais, como o de gênero, para proporcionar maior segurança a consumidores e prestadores.
 
-The target audience can be represented by three main personas:
+## Público-alvo
 
-    1. Service provider: self-employed professionals who want to generate additional income or expand their customer base. They usually acquire clients through referrals or contacts from permanent jobs. With the app, they will be able to select jobs more conveniently according to personal criteria, representing a significant benefit.
+O público-alvo pode ser representado por três personas principais:
 
-    2. Consumer without time: people who, due to busy routines, cannot handle home repairs during regular business hours. Their main pain points are the difficulty of finding reliable professionals, the lack of clarity regarding fair prices, and insecurity during the hiring process. The app helps by providing filters that allow users to quickly find service providers without giving up essential information such as quotes and reviews.
-    
-    3. Consumer without expertise: individuals who have time available but lack the skills to perform repairs, even simple ones. For this audience, the application adds value by providing professional details, upfront quotes, and even additional filters, such as gender, reinforcing trust in the hiring process.
+1. **Prestador de serviços:** profissionais autônomos que desejam gerar renda extra ou expandir sua clientela. Costumam conquistar clientes por indicação ou por meio de contatos de seus trabalhos fixos. Com o aplicativo, poderão selecionar trabalhos de forma mais prática, de acordo com critérios pessoais, o que representa um benefício significativo.
+
+2. **Consumidor sem tempo:** pessoas que, devido a rotinas intensas, não conseguem resolver problemas domésticos durante o horário comercial. Suas principais dificuldades são encontrar profissionais confiáveis, compreender quais seriam os preços justos e sentir-se seguras durante o processo de contratação. O aplicativo contribui ao oferecer filtros que permitem encontrar prestadores rapidamente, sem abrir mão de informações essenciais, como orçamentos e avaliações.
+
+3. **Consumidor sem expertise:** indivíduos que dispõem de tempo, mas não possuem habilidades para realizar reparos, mesmo os mais simples. Para esse público, o aplicativo agrega valor ao fornecer informações sobre os profissionais, orçamentos prévios e filtros adicionais, como o de gênero, reforçando a confiança no processo de contratação.
 
 # Product Discovery
 
-## Understanding Stage
-##### Stakeholder Map 
-![Map](images/mapa-stakeholders.png)
-##### Stakeholder Map 
-![Matrix](images/matriz-csd.png)
+## Etapa de Entendimento
 
-## Definition Stage
+### Mapa de Stakeholders
+
+![Mapa de Stakeholders](images/mapa-stakeholders.png)
+
+### Matriz CSD
+
+![Matriz CSD](images/matriz-csd.png)
+
+## Etapa de Definição
 
 ### Personas
 
 ![Valdeci](images/valdeci.png)
-![Juliana](images/juliana-costa.png)
-![Rafael](images/rafael-andrade.png)
-![Cristiano](images/cristiano.png)  
 
+![Juliana](images/juliana-costa.png)
+
+![Rafael](images/rafael-andrade.png)
+
+![Cristiano](images/cristiano.png)
 
 # Product Design
 
-At this stage, we will transform the insights and validations obtained into tangible and usable solutions. This phase involves defining a value proposition, prioritizing each idea, and subsequently creating wireframes, mockups, and high-fidelity prototypes that detail the interface and user experience.
+Nesta etapa, os insights e as validações obtidos são transformados em soluções tangíveis e utilizáveis.
 
-## User Stories
+Essa fase envolve a definição de uma proposta de valor, a priorização das ideias e a criação de wireframes, mockups e protótipos de alta fidelidade que representem a interface e a experiência do usuário.
 
-Based on the analysis of the personas, the following user stories were identified:
+## Histórias de usuários
 
-| AS A...`PERSONA` | I WANT/NEED ...`FUNCTIONALITY`        | SO THAT ...`REASON/VALUE`               |
-| --------------------- | ------------------------------------------ | -------------------------------------- |
-| Electrician  | I need a schedule so that I can organize myself | because I need to find a client who best fits my profile (location and project).             |
-| E-commerce Manager         | I need a feature that shows trusted professionals and someone who can solve my problem outside regular business hours | So that I can receive a service outside regular business hours from a trusted professional |
-| Freelance Programmer | I need a feature that shows service providers with good reputations, since I am a woman and live alone | because I want to find a trusted professional, or at least one with a good reputation, in one place to provide service quickly outside regular business hours.|
-| Carpenter| I need a feature on the platform that increases the visibility of my service to customers | To find potential customers who need my services but cannot find professionals who provide services outside regular business hours |
+Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
+| EU COMO... `PERSONA` | QUERO/PRECISO... `FUNCIONALIDADE` | PARA... `MOTIVO/VALOR` |
+|---|---|---|
+| Eletricista | Preciso de uma agenda para organizar meus horários. | Para encontrar clientes cujas localizações e necessidades sejam compatíveis com meu perfil. |
+| Gerente de e-commerce | Preciso de uma funcionalidade que mostre profissionais de confiança capazes de resolver meu problema fora do horário comercial. | Para receber atendimento fora do horário comercial de um profissional confiável. |
+| Programadora freelance | Preciso de uma funcionalidade que mostre prestadores com boas avaliações, considerando que sou mulher e moro sozinha. | Para encontrar rapidamente, em um só lugar, um profissional confiável ou com boa reputação, inclusive para atendimentos fora do horário comercial. |
+| Marceneiro | Preciso de uma funcionalidade que aumente a visibilidade dos meus serviços na plataforma. | Para encontrar clientes em potencial que precisam dos meus serviços, mas têm dificuldade em localizar profissionais disponíveis fora do horário comercial. |
 
-## Value Proposition
+## Proposta de valor
 
-##### Value proposition for Valdeci
+### Proposta de valor para Valdeci
 
-![Example of value proposition](images/proposta-valdeci.png)
+![Exemplo de proposta de valor](images/proposta-valdeci.png)
 
-##### Value proposition for Juliana
+### Proposta de valor para Juliana
 
-![Example of value proposition](images/proposta-juliana.png)
+![Exemplo de proposta de valor](images/proposta-juliana.png)
 
-##### Value proposition for Rafael
+### Proposta de valor para Rafael
 
-![Example of value proposition](images/proposta-rafael.png)
-## Requirements
+![Exemplo de proposta de valor](images/proposta-rafael.png)
 
-The following tables present the functional and non-functional requirements that define the project's scope.
+## Requisitos
 
-### Functional Requirements
+As tabelas a seguir apresentam os requisitos funcionais e não funcionais que definem o escopo do projeto.
 
-| ID     | Requirement Description                                   | Priority |
-| ------ | ---------------------------------------------------------- | ---------- |
-| RF-001 |User registration: the system must allow service providers to register, storing their name, email, phone number, area of expertise, where they live (they need to provide this information for the proximity filter), and whether they work outside regular business hours (the area of expertise will be a selection field).| HIGH |
-| RF-002 | The system must have an area with a schedule where the service provider can add/view their scheduled services. Use the JS FullCalendar plugin for this. This page is necessary so that we can filter available time slots.| HIGH     |
-| RF-003 | Search and filtering: the system must allow customers to search by service type (plumbing, furniture repairs, etc.) and filter by location| MEDIUM     |
-| RF-004 | The system must have a filter to search for service providers within a given time interval (this requirement depends on RF-002)| MEDIUM     |
-| RF-005 | The service provider must be able to manage their schedule flexibly, allowing them to enter available times for extra services, such as side jobs on weekends or after work.| HIGH     |
-| RF-006 | The system must have an area that displays available service providers sorted by rating| MEDIUM     |
-| RF-007 | Service request: the customer can send a request describing the problem and their available times.| LOW |
-| RF-008 | Notifications: the system must notify the service provider and the customer when there is a new request, confirmation, or message.| LOW |
-| RF-009 | The system must provide a search mechanism that allows customers to find professionals by proximity and service type, similar to how they already do it on Google.| MEDIUM |
-| RF-010 | The system must provide the option 
-| RF-011 | Negotiation and scheduling: the service provider and customer must be able to accept or reject requests and arrange the time directly through the system.| LOW |
-| RF-012 | The software must have a feature that minimizes no-shows and delays, perhaps through a confirmation and reminder system for both parties.| LOW |
+### Requisitos funcionais
 
-### Non-Functional Requirements
+| ID | Descrição do requisito | Prioridade |
+|---|---|---|
+| RF-001 | **Cadastro de usuários:** o sistema deve permitir o cadastro de prestadores de serviços, armazenando nome, e-mail, telefone, área de atuação, localização e informação sobre a disponibilidade para trabalhar fora do horário comercial. A área de atuação deve ser selecionada a partir de uma lista de opções. A localização é necessária para permitir a filtragem por proximidade. | ALTA |
+| RF-002 | **Agenda de serviços:** o sistema deve disponibilizar uma agenda na qual o prestador possa adicionar e visualizar seus serviços agendados. Para isso, deve ser utilizado o plugin JavaScript FullCalendar. Essa funcionalidade também é necessária para permitir a filtragem por disponibilidade de horários. | ALTA |
+| RF-003 | **Busca e filtragem:** o sistema deve permitir que o cliente pesquise por tipo de serviço, como encanamento e reparos de móveis, e filtre os resultados por localização. | MÉDIA |
+| RF-004 | **Filtro por disponibilidade:** o sistema deve permitir a busca por prestadores disponíveis em determinado intervalo de tempo. Esse requisito depende da implementação do RF-002. | MÉDIA |
+| RF-005 | **Gerenciamento de disponibilidade:** o prestador deve poder gerenciar sua agenda de forma flexível, incluindo horários disponíveis para serviços extras, como trabalhos aos fins de semana ou após o expediente. | ALTA |
+| RF-006 | **Ordenação por avaliação:** o sistema deve disponibilizar uma área que apresente os prestadores de serviços disponíveis, ordenados de acordo com suas avaliações. | MÉDIA |
+| RF-007 | **Solicitação de serviço:** o cliente deve poder enviar uma solicitação descrevendo o problema e informando sua disponibilidade de horários. | BAIXA |
+| RF-008 | **Notificações:** o sistema deve notificar o prestador e o cliente quando houver uma nova solicitação, confirmação ou mensagem. | BAIXA |
+| RF-009 | **Busca por proximidade e tipo de serviço:** o sistema deve oferecer um mecanismo de busca que permita ao cliente encontrar profissionais de acordo com a proximidade e o tipo de serviço, de maneira semelhante à busca realizada em ferramentas como o Google. | MÉDIA |
+| RF-010 | **Negociação e agendamento:** o prestador e o cliente devem poder aceitar ou recusar solicitações e combinar os horários diretamente pelo sistema. | BAIXA |
+| RF-011 | **Redução de faltas e atrasos:** o sistema deve oferecer funcionalidades que ajudem a reduzir faltas e atrasos, como mecanismos de confirmação e lembretes para ambas as partes. | BAIXA |
 
-| ID      | Requirement Description                                                              | Priority |
-| ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | Responsiveness: the software must be responsive, allowing use on mobile phones, tablets, and computers.| HIGH |
-| RNF-002 | Technology: the front-end must be implemented using HTML, CSS, and JavaScript.| HIGH |
-| RNF-003 | Technology: the code must be modular, well-commented, and version-controlled, facilitating corrections.| HIGH |
-| RNF-004 | Availability: the system must be available 24 hours a day, 7 days a week.| LOW |
-| RNF-005 | Usability: the interface must be intuitive, with simple navigation, clear text, and colors that facilitate reading.| LOW |
-| RNF-006 | Access: the system must be made available through the HTTPS protocol, ensuring secure user navigation.| LOW |
+### Requisitos não funcionais
 
-## Interface Design
+| ID | Descrição do requisito | Prioridade |
+|---|---|---|
+| RNF-001 | **Responsividade:** o software deve ser responsivo, permitindo seu uso em celulares, tablets e computadores. | ALTA |
+| RNF-002 | **Tecnologia:** o front-end deve ser implementado utilizando HTML, CSS e JavaScript. | ALTA |
+| RNF-003 | **Qualidade do código:** o código deve ser modular, bem documentado e versionado, facilitando sua manutenção e a realização de correções. | ALTA |
+| RNF-004 | **Disponibilidade:** o sistema deve estar disponível 24 horas por dia, sete dias por semana. | BAIXA |
+| RNF-005 | **Usabilidade:** a interface deve ser intuitiva, com navegação simples, textos claros e cores que facilitem a leitura. | BAIXA |
+| RNF-006 | **Acesso seguro:** o sistema deve ser disponibilizado por meio do protocolo HTTPS, garantindo uma comunicação segura entre os usuários e a aplicação. | BAIXA |
 
-Artifacts related to the interface and user interaction in the proposed solution.
+## Projeto de interface
+
+Esta seção apresenta os artefatos relacionados à interface e à interação dos usuários com a solução proposta.
 
 ### Wireframes
 
-These are the system's screen prototypes.
+Os wireframes a seguir representam as principais telas do sistema.
 
-##### Service Provider Registration Screen
+#### Tela de cadastro de prestador
 
-On this screen, service providers will be able to register their profile on the platform.
+Nesta tela, os prestadores poderão cadastrar seus perfis na plataforma.
 
-![service provider registration](images/cadastro-prestador.png)
+![Cadastro de prestador](images/cadastro-prestador.png)
 
-##### Landing Page
-This screen represents the website's main page.
+#### Landing page
 
-![landing page](images/landing-page.png)
+Esta tela representa a página principal do site.
 
-##### Service Provider View Screen
-On this screen, users will be able to view the service provider and request a service from them.
+![Landing page](images/landing-page.png)
 
-![view service provider](images/contratar-prestador.png)
+#### Tela de visualização do prestador de serviços
 
-##### General Registration Screen
-This screen is for a general registration page on the website, allowing users to register either as a service provider or as a regular user.
+Nesta tela, os usuários poderão visualizar o perfil de um prestador e solicitar seus serviços.
 
-![general registration](images/cadastro-geral.png)
+![Visualização do prestador](images/contratar-prestador.png)
 
-##### Regular User Registration Screen
-This screen is for a regular user to register on the platform.
+#### Tela de cadastro geral
 
-![regular user registration](images/cadastro-usuario-normal.png)
+Esta tela permite que os usuários se cadastrem no site, escolhendo entre as opções de prestador de serviços e usuário comum.
 
-##### Service Provider Listing Screen
-This screen allows users to view service providers and filter them based on the platform's criteria.
+![Cadastro geral](images/cadastro-geral.png)
 
-![service provider listing](images/lista-prestadores.png)
+#### Tela de cadastro do usuário comum
 
-### User Flow
+Esta tela permite que um usuário comum se cadastre na plataforma.
 
-![Example of screen flow](images/user-flow.png)
+![Cadastro do usuário comum](images/cadastro-usuario-normal.png)
 
-### Interactive Prototype
+#### Tela de listagem dos prestadores de serviços
 
-✅ [Interactive Prototype (MarvelApp)](https://marvelapp.com/prototype/34h4hae6/screen/97838948)
+Esta tela permite que os usuários visualizem os prestadores de serviços e filtrem os resultados de acordo com os critérios da plataforma.
 
-# Methodology
+![Listagem de prestadores](images/lista-prestadores.png)
 
-We initially used design thinking to model our problem. All team members met for one day of the week to dedicate most of the afternoon to modeling our problem and defining the next objectives, facilitating the development of the idea.
+### Fluxo de navegação
 
-## Tools
+![Exemplo de fluxo de telas](images/user-flow.png)
 
-List of tools used by the group throughout the project.
+### Protótipo interativo
 
-| Environment                    | Platform | Access Link                                     |
-| --------------------------- | ---------- | -------------------------------------------------- |
-| Design Thinking Process | Miro       | https://miro.com/app/board/uXjVKn8rbf4=/       |
-| Code Repository     | GitHub     | https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti1-g-prestadores-de-servico      |
-| Interactive Prototype       | MarvelApp  | https://marvelapp.com/prototype/34h4hae6/screen/97838948    |
+✅ [Protótipo interativo (MarvelApp)](https://marvelapp.com/prototype/34h4hae6/screen/97838948)
+
+# Metodologia
+
+Inicialmente, utilizamos a metodologia Design Thinking para estruturar o problema. Os integrantes da equipe se reuniam uma vez por semana e dedicavam a maior parte da tarde à análise do problema, à discussão de ideias e à definição dos próximos objetivos, facilitando o desenvolvimento da proposta.
+
+## Ferramentas
+
+Relação das ferramentas utilizadas pela equipe ao longo do projeto.
+
+| Finalidade | Plataforma | Link de acesso |
+|---|---|---|
+| Processo de Design Thinking | Miro | [Miro](https://miro.com/app/board/uXjVKn8rbf4=/) |
+| Repositório de código | GitHub | [Repositório GitHub](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti1-g-prestadores-de-servico) |
+| Protótipo interativo | MarvelApp | [Protótipo interativo](https://marvelapp.com/prototype/34h4hae6/screen/97838948) |
