@@ -2,25 +2,15 @@
 
 Informações básicas do projeto.
 
-<<<<<<< HEAD
-* **Project:** MatchService2.0
-* **GitHub Repository:** [LINK](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti1-g-prestadores-de-servico)
-* **Team Members:**
+**Projeto:** PRESTADORES DE SERVIÇO
 
-  * [Henrique Pimenta Krueger](https://github.com/HenriquePkrueger)
-  * [Rhayner Moura Martins da Silva Araújo](https://github.com/rhaynermartins)
-  * [Samuel Elias Santos Oliveira](https://github.com/SamuelMonstewe)
-  * [Gabriel Ulhoa Thebaldi](https://github.com/gauthzera)
-=======
-- **Projeto:** PRESTADORES DE SERVIÇO
-- **Membros da equipe:**
-  - [Rhayner Moura Martins da Silva Araújo](https://github.com/rhaynermartins)
+**Membros da equipe:**
   - [Henrique Pimenta Krueger](https://github.com/HenriquePkrueger)
+  - [Rhayner Moura Martins da Silva Araújo](https://github.com/rhaynermartins)
   - [Samuel Elias Santos Oliveira](https://github.com/SamuelMonstewe)
   - [Gabriel Ulhoa Thebaldi](https://github.com/gauthzera)
 
 A documentação do projeto está estruturada da seguinte forma:
->>>>>>> 1f8d56a (docs: update README)
 
 1. Introdução
 2. Contexto
@@ -50,16 +40,10 @@ Dessa forma, é natural recorrer às ferramentas da era da informação para enf
 
 A finalidade desta aplicação é lidar com o problema descrito anteriormente, conectando a demanda dos consumidores por serviços às oportunidades de renda extra para os prestadores. Tudo isso com o objetivo de oferecer praticidade e segurança para ambas as partes.
 
-A solução consiste em um aplicativo que atua em duas frentes principais: tempo e expertise.
+A solução consiste em um aplicativo que atua em duas frentes principais:
 
-<<<<<<< HEAD
-The solution takes the form of an application t[Samuel Vitor Vieira](https://github.com/svsamuel1912)hat operates on two main fronts: time and expertise.
-    • Time: the app allows consumers to schedule services outside regular business hours, fitting them better into their routines, while also giving service providers the opportunity to increase their income.
-    • Expertise: in addition to connecting consumers and service providers, the application provides relevant information for more informed decisions, such as reviews, portfolios, and quotes.
-=======
 - **Tempo:** o aplicativo oferece ao consumidor a possibilidade de agendar serviços fora do horário comercial, adaptando-os melhor à sua rotina. Ao mesmo tempo, proporciona ao prestador a oportunidade de ampliar sua renda.
 - **Expertise:** além de aproximar consumidores e prestadores, a aplicação disponibiliza informações relevantes para uma tomada de decisão mais consciente, como avaliações, portfólios e orçamentos.
->>>>>>> 1f8d56a (docs: update README)
 
 ## Justificativa
 
@@ -78,9 +62,7 @@ Três pontos se mostraram centrais:
 O público-alvo pode ser representado por três personas principais:
 
 1. **Prestador de serviços:** profissionais autônomos que desejam gerar renda extra ou expandir sua clientela. Costumam conquistar clientes por indicação ou por meio de contatos de seus trabalhos fixos. Com o aplicativo, poderão selecionar trabalhos de forma mais prática, de acordo com critérios pessoais, o que representa um benefício significativo.
-
 2. **Consumidor sem tempo:** pessoas que, devido a rotinas intensas, não conseguem resolver problemas domésticos durante o horário comercial. Suas principais dificuldades são encontrar profissionais confiáveis, compreender quais seriam os preços justos e sentir-se seguras durante o processo de contratação. O aplicativo contribui ao oferecer filtros que permitem encontrar prestadores rapidamente, sem abrir mão de informações essenciais, como orçamentos e avaliações.
-
 3. **Consumidor sem expertise:** indivíduos que dispõem de tempo, mas não possuem habilidades para realizar reparos, mesmo os mais simples. Para esse público, o aplicativo agrega valor ao fornecer informações sobre os profissionais, orçamentos prévios e filtros adicionais, como o de gênero, reforçando a confiança no processo de contratação.
 
 # Product Discovery
